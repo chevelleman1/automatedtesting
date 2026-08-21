@@ -8,7 +8,7 @@ export default defineConfig({
   workers: process.env.CI ? 1 : undefined,
   reporter: [['html'], ['json', { outputFile: 'test-results/results.json' }]],
   use: {
-    baseURL: 'https://example.com',
+    baseURL: process.env.BASE_URL || 'https://velcommsoftware.ddns.net',
     trace: 'on-first-retry',
   },
   projects: [

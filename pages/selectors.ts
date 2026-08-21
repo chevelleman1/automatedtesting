@@ -40,9 +40,9 @@ export const selectors = (page: Page) => ({
   messageInput: page.getByRole('textbox', { name: 'Your Message' }),
   sendMessageButton: page.getByRole('button', { name: 'Send Message' }),
   contactSuccessMessage: page.getByText("We'll get back to you shortly!"),
-  addressText: page.getByText('123 Business Street'),
+  addressText: page.getByText(/Business Street/),
   emailText: page.getByText('info@velcomm.com'),
-  phoneText: page.getByText('(555) 123-'),
+  phoneText: page.getByText(/\(555\) 123-/),
 
   facebookLink: page.getByRole('link', { name: 'Facebook' }),
   twitterLink: page.getByRole('link', { name: 'Twitter' }),

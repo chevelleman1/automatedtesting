@@ -15,12 +15,12 @@ test.describe('Accessibility and Error Handling', () => {
 
   test('Page URL is correct on load', async ({ page }) => {
     await gotoHome(page);
-    await expect(page).toHaveURL('https://velcommsoftware.ddns.net/');
+    await expect(page).toHaveURL('/');
   });
 
   test('Completed Projects page loads without crashes', async ({ page }) => {
     const s = selectors(page);
-    await page.goto('https://velcommsoftware.ddns.net/completed-projects');
+    await page.goto('/completed-projects');
     await expect(s.completedProjectsHeading).toBeVisible();
   });
 });

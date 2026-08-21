@@ -29,6 +29,6 @@ test.describe('Footer', () => {
     const s = selectors(page);
     await gotoHome(page);
     await s.privacyPolicyLink.click();
-    await expect(page).toHaveURL('https://velcommsoftware.ddns.net/#home');
+    await expect(page).toHaveURL('/#home');
   });
 });

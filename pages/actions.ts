@@ -2,7 +2,7 @@ import { type Page } from '@playwright/test';
 import { selectors } from './selectors';
 
 export async function gotoHome(page: Page) {
-  await page.goto('https://velcommsoftware.ddns.net/');
+  await page.goto('/');
 }
 
 export async function scrollToSection(page: Page, section: 'about' | 'services' | 'contact') {

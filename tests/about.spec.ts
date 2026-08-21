@@ -18,20 +18,20 @@ test.describe('About Us Section', () => {
   test('Completed projects link navigates to correct page', async ({ page }) => {
     const s = selectors(page);
     await navigateToCompletedProjects(page);
-    await expect(page).toHaveURL('https://velcommsoftware.ddns.net/completed-projects');
+    await expect(page).toHaveURL('/completed-projects');
   });
 
   test('Completed Projects page displays project list', async ({ page }) => {
     const s = selectors(page);
-    await page.goto('https://velcommsoftware.ddns.net/completed-projects');
+    await page.goto('/completed-projects');
     await expect(s.completedProjectsHeading).toBeVisible();
     await expect(s.firstProjectHeading).toBeVisible();
   });
 
   test('Back to Home button returns to main page', async ({ page }) => {
     const s = selectors(page);
-    await page.goto('https://velcommsoftware.ddns.net/completed-projects');
+    await page.goto('/completed-projects');
     await goBackToHomeFromProjects(page);
-    await expect(page).toHaveURL('https://velcommsoftware.ddns.net/');
+    await expect(page).toHaveURL('/');
   });
 });
