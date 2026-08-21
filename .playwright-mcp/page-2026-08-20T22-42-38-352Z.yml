@@ -1,0 +1,107 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 🌟
+        - generic [ref=e8]: Velcomm
+      - navigation [ref=e9]:
+        - button "Home" [ref=e10] [cursor=pointer]
+        - button "About" [active] [ref=e11] [cursor=pointer]
+        - button "Services" [ref=e12] [cursor=pointer]
+        - button "Contact" [ref=e13] [cursor=pointer]
+  - generic [ref=e16]:
+    - heading "Welcome to Velcomm" [level=1] [ref=e17]
+    - paragraph [ref=e18]: Professional services tailored to your needs. We're here to help you succeed.
+    - generic [ref=e19]:
+      - button "Get Started" [ref=e20] [cursor=pointer]
+      - button "Learn More" [ref=e21] [cursor=pointer]
+  - generic [ref=e23]:
+    - heading "About Us" [level=2] [ref=e24]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - paragraph [ref=e27]: We are a dedicated organization committed to providing excellent services to our community. With years of experience and a passionate team, we strive to make a positive impact in everything we do.
+        - paragraph [ref=e28]: Our mission is to deliver quality solutions that meet the unique needs of each client while maintaining the highest standards of professionalism and integrity.
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - generic [ref=e31]: ✓
+          - heading "Quality Service" [level=3] [ref=e32]
+          - paragraph [ref=e33]: Committed to excellence in every project
+        - generic [ref=e34]:
+          - generic [ref=e35]: ✓
+          - heading "Professional Team" [level=3] [ref=e36]
+          - paragraph [ref=e37]: Experienced experts at your service
+        - generic [ref=e38]:
+          - generic [ref=e39]: ✓
+          - heading "Customer Focus" [level=3] [ref=e40]
+          - paragraph [ref=e41]: Your needs are our top priority
+        - generic [ref=e42]:
+          - generic [ref=e43]: ✓
+          - heading "Years Of Experience" [level=3] [ref=e44]
+          - paragraph [ref=e45]:
+            - text: Over 20 years of proven experience. Click
+            - link "here" [ref=e46] [cursor=pointer]:
+              - /url: /completed-projects
+            - text: for more details.
+  - generic [ref=e48]:
+    - heading "Our Services" [level=2] [ref=e49]
+    - generic [ref=e50]:
+      - generic [ref=e51]:
+        - generic [ref=e52]: 📋
+        - heading "Consultation" [level=3] [ref=e53]
+        - paragraph [ref=e54]: Professional advice and guidance for your projects
+      - generic [ref=e55]:
+        - generic [ref=e56]: ⚙️
+        - heading "Implementation" [level=3] [ref=e57]
+        - paragraph [ref=e58]: Expert execution of plans and solutions
+      - generic [ref=e59]:
+        - generic [ref=e60]: 📊
+        - heading "Analysis" [level=3] [ref=e61]
+        - paragraph [ref=e62]: Comprehensive evaluation and reporting
+      - generic [ref=e63]:
+        - generic [ref=e64]: 🎯
+        - heading "Strategy" [level=3] [ref=e65]
+        - paragraph [ref=e66]: Customized solutions for your goals
+  - generic [ref=e68]:
+    - heading "Contact Us" [level=2] [ref=e69]
+    - generic [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e73]: 📍
+          - generic [ref=e74]:
+            - heading "Address" [level=4] [ref=e75]
+            - paragraph [ref=e76]: 123 Business StreetCity, State 12345
+        - generic [ref=e77]:
+          - generic [ref=e78]: 📧
+          - generic [ref=e79]:
+            - heading "Email" [level=4] [ref=e80]
+            - paragraph [ref=e81]: info@velcomm.com
+        - generic [ref=e82]:
+          - generic [ref=e83]: 📞
+          - generic [ref=e84]:
+            - heading "Phone" [level=4] [ref=e85]
+            - paragraph [ref=e86]: (555) 123-4567
+      - generic [ref=e87]:
+        - textbox "Your Name" [ref=e89]
+        - textbox "Your Email" [ref=e91]
+        - textbox "Your Message" [ref=e93]
+        - button "Send Message" [ref=e94] [cursor=pointer]
+  - contentinfo [ref=e95]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - link "Facebook" [ref=e99] [cursor=pointer]:
+          - /url: https://facebook.com
+        - link "Twitter" [ref=e102] [cursor=pointer]:
+          - /url: https://twitter.com
+        - link "LinkedIn" [ref=e105] [cursor=pointer]:
+          - /url: https://linkedin.com
+        - link "Instagram" [ref=e108] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=e111]:
+        - generic [ref=e112]: 🌟
+        - generic [ref=e113]: Velcomm
+      - paragraph [ref=e114]: © 2024 Velcomm. All rights reserved.
+      - generic [ref=e115]:
+        - link "Privacy Policy" [ref=e116] [cursor=pointer]:
+          - /url: "#home"
+        - link "Terms of Service" [ref=e117] [cursor=pointer]:
+          - /url: "#home"

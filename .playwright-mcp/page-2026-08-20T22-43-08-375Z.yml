@@ -1,0 +1,103 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 🌟
+        - generic [ref=e8]: Velcomm
+      - navigation [ref=e9]:
+        - button "Home" [ref=e10] [cursor=pointer]
+        - button "About" [ref=e11] [cursor=pointer]
+        - button "Services" [ref=e12] [cursor=pointer]
+        - button "Contact" [ref=e13] [cursor=pointer]
+  - main [ref=e118]:
+    - generic [ref=e119]:
+      - heading "Completed Projects" [level=2] [ref=e120]
+      - paragraph [ref=e121]: With over 20 years of experience, we have successfully delivered projects across a wide range of industries. Here is a selection of our completed work.
+      - generic [ref=e122]:
+        - generic [ref=e123]:
+          - generic [ref=e124]: "2024"
+          - generic [ref=e125]:
+            - heading "Enterprise Cloud Migration ECM" [level=3] [ref=e126]
+            - paragraph [ref=e127]: "Client: Acme Corporation"
+            - paragraph [ref=e128]: Migrated legacy on-premise infrastructure to a fully managed cloud environment, reducing operational costs by 40%.
+        - generic [ref=e129]:
+          - generic [ref=e130]: "2023"
+          - generic [ref=e131]:
+            - heading "E-Commerce Platform Redesign" [level=3] [ref=e132]
+            - paragraph [ref=e133]: "Client: ShopWave Inc."
+            - paragraph [ref=e134]: Complete redesign and rebuild of a high-traffic e-commerce platform, improving conversion rates by 25%.
+        - generic [ref=e135]:
+          - generic [ref=e136]: "2023"
+          - generic [ref=e137]:
+            - heading "Healthcare Data Analytics Dashboard" [level=3] [ref=e138]
+            - paragraph [ref=e139]: "Client: MedTech Solutions"
+            - paragraph [ref=e140]: Built a real-time analytics dashboard for patient data, enabling faster clinical decision-making.
+        - generic [ref=e141]:
+          - generic [ref=e142]: "2022"
+          - generic [ref=e143]:
+            - heading "Financial Services API Integration" [level=3] [ref=e144]
+            - paragraph [ref=e145]: "Client: FinServ Global"
+            - paragraph [ref=e146]: Designed and implemented a secure API gateway connecting multiple banking systems for seamless transactions.
+        - generic [ref=e147]:
+          - generic [ref=e148]: "2022"
+          - generic [ref=e149]:
+            - heading "Smart City IoT Network" [level=3] [ref=e150]
+            - paragraph [ref=e151]: "Client: Metro City Council"
+            - paragraph [ref=e152]: Deployed an IoT sensor network across the city for traffic management, air quality monitoring, and energy optimization.
+        - generic [ref=e153]:
+          - generic [ref=e154]: "2021"
+          - generic [ref=e155]:
+            - heading "Supply Chain Management System" [level=3] [ref=e156]
+            - paragraph [ref=e157]: "Client: LogiTrans Ltd."
+            - paragraph [ref=e158]: Developed an end-to-end supply chain management platform with real-time tracking and predictive analytics.
+        - generic [ref=e159]:
+          - generic [ref=e160]: "2021"
+          - generic [ref=e161]:
+            - heading "Educational Learning Platform" [level=3] [ref=e162]
+            - paragraph [ref=e163]: "Client: EduBright Academy"
+            - paragraph [ref=e164]: Created an interactive online learning platform supporting 50,000+ concurrent users with video streaming and assessments.
+        - generic [ref=e165]:
+          - generic [ref=e166]: "2020"
+          - generic [ref=e167]:
+            - heading "Retail POS System Modernization" [level=3] [ref=e168]
+            - paragraph [ref=e169]: "Client: QuickMart Stores"
+            - paragraph [ref=e170]: Modernized point-of-sale systems across 200+ retail locations with cloud-based inventory management.
+        - generic [ref=e171]:
+          - generic [ref=e172]: "2019"
+          - generic [ref=e173]:
+            - heading "Government Portal Accessibility Upgrade" [level=3] [ref=e174]
+            - paragraph [ref=e175]: "Client: State Department of Services"
+            - paragraph [ref=e176]: Redesigned government services portal to meet WCAG 2.1 AA accessibility standards, serving 2 million+ citizens.
+        - generic [ref=e177]:
+          - generic [ref=e178]: "2018"
+          - generic [ref=e179]:
+            - heading "Telecommunications Network Optimization" [level=3] [ref=e180]
+            - paragraph [ref=e181]: "Client: ConnectTel"
+            - paragraph [ref=e182]: Optimized network routing algorithms, improving data throughput by 35% and reducing latency across the region.
+        - generic [ref=e183]:
+          - generic [ref=e184]: "2015"
+          - generic [ref=e185]:
+            - heading "Web Application Test Automation" [level=3] [ref=e186]
+            - paragraph [ref=e187]: "Client: TaskPro"
+            - paragraph [ref=e188]: Established UI automation using Selenium WebDriver and TestNG, reducing regression testing time by 60%.
+      - button "← Back to Home" [ref=e190] [cursor=pointer]
+  - contentinfo [ref=e95]:
+    - generic [ref=e97]:
+      - generic [ref=e98]:
+        - link "Facebook" [ref=e99] [cursor=pointer]:
+          - /url: https://facebook.com
+        - link "Twitter" [ref=e102] [cursor=pointer]:
+          - /url: https://twitter.com
+        - link "LinkedIn" [ref=e105] [cursor=pointer]:
+          - /url: https://linkedin.com
+        - link "Instagram" [ref=e108] [cursor=pointer]:
+          - /url: https://instagram.com
+      - generic [ref=e111]:
+        - generic [ref=e112]: 🌟
+        - generic [ref=e113]: Velcomm
+      - paragraph [ref=e114]: © 2024 Velcomm. All rights reserved.
+      - generic [ref=e115]:
+        - link "Privacy Policy" [ref=e116] [cursor=pointer]:
+          - /url: "#home"
+        - link "Terms of Service" [ref=e117] [cursor=pointer]:
+          - /url: "#home"
